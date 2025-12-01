@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ibrahim Mohamed | Professional CV</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #e8ecf3;
+        }
+
+        .cv-wrapper {
+            width: 1150px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: 330px auto;
+            background: #fff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.17);
+        }
+
+        .sidebar {
+            background: #1f2a48;
+            color: #fff;
+            padding: 35px 22px;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        .sidebar img {
+            width: 200px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .sidebar h2 {
+            margin: 12px 0 8px;
+            font-size: 24px;
+        }
+
+        .sidebar p {
+            color: #d0d6e1;
+            font-size: 16px;
+        }
+
+        .sidebar h3 {
+            margin-top: 35px;
+            font-size: 20px;
+            border-bottom: 3px solid #3a4664;
+            padding-bottom: 6px;
+            text-align: left;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding-left: 0;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .sidebar li {
+            margin: 8px 0;
+            color: #d6dbea;
+            font-size: 16px;
+        }
+
+        .main {
+            padding: 40px;
+            font-size: 19px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            margin-bottom: 18px;
+            border-left: 6px solid #1f2a48;
+            padding-left: 15px;
+        }
+
+        .card {
+            background: #f8f9fc;
+            padding: 28px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+            font-size: 18px;
+        }
+
+        ul {
+            margin: 5px 0 0 25px;
+        }
+
+        a {
+            color: #1f2a48;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="cv-wrapper">
+
+    <div class="sidebar">
+        <img src="20.jpg" alt="My Photo">
+
+        <h2>Ibrahim Mohamed</h2>
+        <p>Mansoura, Egypt</p>
+
+        <h3>Contact</h3>
+        <ul>
+            <li>Email: ebrahimzaid02@gmail.com</li>
+            <li>Phone: 01026737070</li>
+        </ul>
+
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Football</li>
+            <li>Video Games</li>
+        </ul>
+    </div>
+
+    <div class="main">
+
+        <h1 class="section-title">Education</h1>
+        <div class="card">
+            <h3 style="font-size:23px;">Faculty of Computers and Information</h3>
+            <p>Undergraduate Student</p>
+        </div>
+
+        <h1 class="section-title">Skills & Experience</h1>
+        <div class="card">
+            <ul>
+                <li>C# Programming</li>
+                <li>HTML Development</li>
+                <li>English Language</li>
+            </ul>
+        </div>
+
+        <h1 class="section-title">Social Media</h1>
+        <div class="card">
+            <ul>
+                <li><a href="https://www.facebook.com/share/1CmN36HJqV/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/ib_z.1?igsh=cnZ0ZXk0ZHB5YWdw">Instagram</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
